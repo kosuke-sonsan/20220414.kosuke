@@ -1,0 +1,70 @@
+.box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  font-size: 30px;
+  color: navy;
+  margin: 30px;
+}
+
+.parent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header1 {
+  box-sizing: border-box;
+  color: navy;
+  margin: 20px;
+}
+
+.header2 {
+  box-sizing: border-box;
+  color: navy;
+  margin: 20px;
+}
+
+.header3 {
+  box-sizing: border-box;
+  color: navy;
+  margin: 20px;
+}
+
+.header4 {
+  box-sizing: border-box;
+  color: navy;
+  margin: 20px;
+}
+
+.text_position {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 80%;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.img {
+  position: relative;
+  width: 45%;
+  height: 20%;
+  top: 100px;
+  left: 55%;
+  z-index: 10;
+}
+
+.box2 {
+  background: navy;
+  position: relative;
+  width: 70%;
+  height: 60%;
+  top: 40%;
+  z-index: 0;
+}
