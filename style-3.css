@@ -19,23 +19,21 @@
 }
 
 .parent {
-  position: absolute;
+  position: relative;
 }
 
 .header1 {
   display: inline-block;
-  text-align: right;
-  position: relative;
+  text-align: left;
   color: navy;
   width: 6vw;
   top: 10%;
-  right: -280%;
+  right: -800%;
   padding: 2%;
 }
 
 .header2 {
   display: inline-block;
-  position: relative;
   color: navy;
   width: 6vw;
   bottom: 10%;
@@ -45,7 +43,6 @@
 
 .header3 {
   display: inline-block;
-  position: relative;
   color: navy;
   width: 6vw;
   bottom: 10%;
@@ -55,7 +52,6 @@
 
 .header4 {
   display: inline-block;
-  position: relative;
   color: navy;
   width: 6vw;
   bottom: 10%;
@@ -63,33 +59,28 @@
   padding: 2%;
 }
 
-.text_position {
-  position: relative;
-}
-
 .text {
-  position: fixed;
-  bottom: 50%;
+  position: absolute;
+  top: 490%;
   font-size: 50px;
   font-weight: normal;
 }
 
 .img {
-  position: fixed;
-  width: 45%;
-  height: 50%;
-  top: 20%;
-  bottom: 20%;
-  left: 55%;
+  position: absolute;
+  width: 40%;
+  height: 450%;
+  top: 200%;
+  left: 60%;
   z-index: 10;
 }
 
 .box2 {
   display: inline-block;
   background: navy;
-  position: relative;
+  position: absolute;
   width: 70%;
-  height: 140px;
-  top: 40%;
+  height: 150px;
+  top: 550%;
   z-index: 0;
 }
