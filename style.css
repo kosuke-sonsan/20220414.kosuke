@@ -19,59 +19,51 @@
 }
 
 .parent {
-  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header1 {
-  display: inline-block;
-  text-align: left;
+  box-sizing: border-box;
   color: navy;
-  width: 6vw;
-  top: 10%;
-  right: -800%;
-  padding: 2%;
+  margin: 20px;
+  font-size: 1vw;
 }
 
 .header2 {
-  display: inline-block;
+  box-sizing: border-box;
   color: navy;
-  width: 6vw;
-  bottom: 10%;
-  right: -290%;
-  padding: 2%;
+  margin: 20px;
+  font-size: 1vw;
 }
 
 .header3 {
-  display: inline-block;
+  box-sizing: border-box;
   color: navy;
-  width: 6vw;
-  bottom: 10%;
-  right: -295%;
-  padding: 2%;
+  margin: 20px;
+  font-size: 1vw;
 }
 
 .header4 {
-  display: inline-block;
+  box-sizing: border-box;
   color: navy;
-  width: 6vw;
-  bottom: 10%;
-  right: -300%;
-  padding: 2%;
+  margin: 20px;
+  font-size: 1vw;
 }
 
 .text {
   position: absolute;
-  top: 490%;
+  top: 600%;
   font-size: 50px;
   font-weight: normal;
 }
 
 .img {
   position: absolute;
-  width: 40%;
-  height: 450%;
+  width: 42%;
+  height: 650%;
   top: 200%;
-  left: 60%;
+  left: 58%;
   z-index: 10;
 }
 
@@ -81,6 +73,6 @@
   position: absolute;
   width: 70%;
   height: 150px;
-  top: 550%;
+  top: 700%;
   z-index: 0;
 }
